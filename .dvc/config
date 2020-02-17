@@ -1,6 +1,5 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = gdrive://root/bucket
-    gdrive_client_id = 183175979333-9rh9bv4t1ee6r2bd80d218mlbs8p109n.apps.googleusercontent.com
-    gdrive_client_secret = MSsRgTuMK3C0OTRg0yfcCX5K
+    url = ssh://vladislav@10.10.66.92:/home/vladislav/bucket/shelf-storage/
+    keyfile = dvc.key
